@@ -1,0 +1,104 @@
+step:1 install git in your machine  ===> you have
+step 2: git init =====> it will create as hidden folder
+step3:git remote add origin "link of your central repository"  =====>
+
+to make connections between your local and central repository we have to exeute above command
+
+example git remote add origin https://github.com/maldanna/practise.git
+
+step4:git pull origin master  ===> it will pull all files of master branch to master branch in locl repository
+
+=========================================================================================================================
+now add some files are do any change in your existing files 
+
+then check status($ git status)
+
+it show all files which are not commited yet ,so to commit them we should push them into index first .
+
+step 5.a:
+
+by using $git add filename.extention  ===> it is for single file only
+
+          $git add -A             ======> it is for multiple files (both modified files as well as newly created files)
+          
+          
+to commmit:
+
+step 5.b :$git commit -m "here,message of anything just to make undestanblity "     ======> it is for singl file only
+          $git commit -a -m "message to commit "                =========> it is for multiple files 
+          
+          
+Step-extra: git log
+
+$ after made commits in local repository  then push all these changes done  to central repository
+
+step:$git push origin master  ======> total folder will update but it wont create any new folders again
+
+------>  it will ask username and password
+
+
+================================================================================================================
+parallel distribution:
+$git branch firstbranch1  ==> it will create new branch and it will get all files of master branch have 
+now we have to execute command to work on newbranch i.. switch from master (current) branch new branch(other branch)
+$git checkout firstbranch1
+
+once complete all task like in master brnach 
+
+
+
+we have to merge our branches to master branch to see modifictions  .....................
+
+
+$git merge firstbranch ==> this command should execute when u want to it in master and we should be in master branch only(
+to which we have to add)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+pull will download all latest files from central repository into master branch only
+fetch will download all latest files in child branch
+
